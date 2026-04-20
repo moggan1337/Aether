@@ -1,0 +1,11 @@
+prefix=@CMAKE_INSTALL_PREFIX@
+exec_prefix=${prefix}
+libdir=@LIB_INSTALL_DIR@
+includedir=@CMAKE_INSTALL_PREFIX@/include
+
+Name: aether
+Description: Distributed Shared Memory with RDMA
+Version: @PROJECT_VERSION@
+Requires: libibverbs librdmacm
+Cflags: -I${includedir}
+Libs: -L${libdir} -laether

@@ -1,0 +1,31 @@
+# Build artifacts
+build/
+lib/
+*.o
+*.a
+*.so
+*.dylib
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Test outputs
+*.log
+*.trs
+Testing/
+
+# Documentation
+docs/html/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+core
