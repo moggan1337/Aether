@@ -7,7 +7,7 @@
 **High-Performance Distributed Shared Memory System Using Remote Direct Memory Access**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Build Status](https://github.com/moggan1337/Aether/actions/workflows/build.yml/badge.svg)](https://github.com/moggan1337/Aether/actions)
+[![CI](https://github.com/moggan1337/Aether/actions/workflows/ci.yml/badge.svg)](https://github.com/moggan1337/Aether/actions/workflows/ci.yml)
 [![Documentation](https://img.shields.io/badge/docs-latest-brightgreen.svg)](docs/)
 [![Paper](https://img.shields.io/badge/paper-arXiv-red.svg)](https://arxiv.org/)
 
@@ -24,6 +24,24 @@ Aether is a production-grade distributed shared memory (DSM) system that leverag
 - **RDMA-Aware RPC**: High-performance RPC framework optimized for RDMA transport
 - **Memory-Mapped Distributed Arrays**: NumPy-like array interface for distributed data
 - **Comprehensive Profiling**: Built-in performance monitoring and benchmarking tools
+
+## 🎬 Demo
+![Aether Demo](demo.gif)
+
+*High-performance RDMA memory transfer between distributed nodes*
+
+## Screenshots
+| Component | Preview |
+|-----------|---------|
+| Cluster Dashboard | ![dashboard](screenshots/dashboard.png) |
+| RDMA Transfer Monitor | ![rdma](screenshots/rdma-monitor.png) |
+| Memory Page Viewer | ![memory](screenshots/memory-view.png) |
+
+## Visual Description
+Aether displays real-time distributed memory pages synchronized across nodes. The RDMA transfer monitor shows bandwidth utilization and latency metrics with animated data flow indicators. Memory viewers show consistent views with change propagation timelines.
+
+---
+
 
 ## Table of Contents
 
